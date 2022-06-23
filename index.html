@@ -21,53 +21,58 @@
           <li> <a href="">Resume</a></li>
         </ul>
       </nav>
+<!-- Next, I want to include the main image -->
+      <figure id="hero" title="hero image">
+        <img src="">
+        <h2 class="sub-title">Cool Sub-title!</h2>
+      </figure>
   </header>
 
-<!-- Next, I want to include the main image -->
-  <figure id="hero" title="hero image">
-    <img src="">
-    <h2 class="sub-title">Cool Sub-title!</h2>
-  </figure>
 
 <!-- Then, I want to create an article for my About Me -->
-  <article>
-    <h2 class="about-me">About Me</h2>
-      <p class="bio">
-        I enjoy strategizing, logic, communication, problem solving, and attention to detail. 
-        I like to make lists, build systems, solve puzzles, have an impact, and be a team leader.
-        I am strong in prioritization, delegating tasks, organizing groups, and encouraging a positive mindset.
-        I have a knack for not panicking in the face of complexity and am able to break things down into manageable chunks and tackle them with the tools at my disposal. 
-        My previous job experience is in project management, sales, and contract negotiation.
-      </p>
-  </article>
+<main class="main">
+  <div class="wrapper">
+      <article>
+        <h2 class="about-me">About Me</h2>
+          <p class="bio">
+            I enjoy strategizing, logic, communication, problem solving, and attention to detail. 
+            I like to make lists, build systems, solve puzzles, have an impact, and be a team leader.
+            I am strong in prioritization, delegating tasks, organizing groups, and encouraging a positive mindset.
+            I have a knack for not panicking in the face of complexity and am able to break things down into manageable chunks and tackle them with the tools at my disposal. 
+            My previous job experience is in project management, sales, and contract negotiation.
+          </p>
+      </article>
+  </div>
 
-  <br>
+<br>
 
 <!-- Here is where the main content of my portfolio lives including 5 sub sections -->
-  <main class="main">
-    <h2 class="Work">Work</h2>
-      <section>
-        <h4 class="Surf-Report">Surf Report</h4>
-      </section>
-      <section>
-        <h5 class="LED-Wall">Surf Report</h5>
-      </section>
-        <h5 class="LED Wall">LED Wall</h5>
-      <section>
-        <h5 class="Calculator">Calculator</h5>
-      </section>
-        <h5 class="Pastel Puzzels">Pastel Puzzles</h5>
-      <section>
-        <h5 class="Run BUddy">Run Buddy</h5>
-      </section>
-  </main>
+
+    <div id="Work">
+      <h2 class="Work">Work</h2>
+        <section class="Surf-Report" title="Surf Report">
+              <h3>Surf Report</h3>
+        </section>
+      <div class="work-content">
+        <h4>LED Wall</h4>
+          <section>
+        <h4>Calculator</h4>
+                  <img id="Calculator">
+          </section>
+        <h4>Pastel Puzzles</h4>
+            <section>
+        <h4>Run Buddy</h4>
+          </section>
+      </div>
+    </div>
+</main>
 
   <br>
 
 <!-- Finally, I add my footer with links to my contact info -->
   <footer>
-    <h2 class="footer">Contact Me</h2>
-      <ul class="mediums">
+    <h2 id="Contact-Me">Contact Me</h2>
+      <ul class="footer">
         <li class="contact">570.687.6297</li>
         <li class="contact">bdlalli11@gmail.com</li>
         <li class="contact">570.687.6297</li>
