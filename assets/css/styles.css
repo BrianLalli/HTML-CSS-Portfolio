@@ -1,0 +1,78 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;  
+  }
+
+body {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #264653;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #2A9D8F;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  /* src=https://www.w3schools.com/css/css_navbar_horizontal.asp */
+  li a:hover {
+    background-color: #111;
+  }
+
+#hero {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 25px;
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/89/77/blue-brick-wall-with-white-spotlight-vector-32718977.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-title {
+    text-align: end;
+    color: #2A9D8F;
+}
+
+article {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+main {
+    padding-left: 200px;
+}
+
+
+h1 {
+    color:#264653;
+    background-color: #2A9D8F;
+    padding: 20px;
+}
+
+footer {
+    padding-left: 200px;
+    background-color: #264653;
+}
+
+li {
+    display: block;
+    color: #2A9D8F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
