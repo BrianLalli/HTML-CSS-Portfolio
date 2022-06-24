@@ -3,55 +3,80 @@
     box-sizing: border-box;
     margin:0;
     padding:0;  
-  }
-
-body {
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
-h1 {
-    color:#264653;
-    background-color: #2A9D8F;
-    padding: 15px;
 }
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+}
+
+
+h1 {
+    color:#2A9D8F;
+    background-color: #13243e;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Inserting a cool little easter egg */
+h2:hover {
+    color: #2A9D8F;
+    font-size: 1em;
+    font-style: italic;
+    /* display: none; */
+}
+
+header {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
 ul {
+    display: flex;
     list-style-type: none;
     overflow: hidden;
-    background-color: #264653;
-  }
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    justify-content: stretch;
+}
   
-  li {
-    float: right;
-  }
   
-  li a {
-    display: block;
+li a {
+    display: inline;
     color: #2A9D8F;
     text-align: center;
     text-decoration: none;
-  }
+}
   
   /* Change the link color to #111 (black) on hover */
   /* src=https://www.w3schools.com/css/css_navbar_horizontal.asp */
-  li a:hover {
-    background-color: #111;
-  }
+li a:hover {
+    background-color: green;
+}
 
 #hero {
     width: 100%;
-    min-height: 188px;
-    margin-bottom: 20px;
+    min-height: 270px;
+    margin-bottom: 25px;
     background-image: url(../images/Screen\ Shot\ 2022-06-23\ at\ 5.40.05\ PM.png);
     background-size: cover;
     background-position: center;
 }
 
 .sub-title {
-    text-align: end;
+    text-align: start;
     color: #2A9D8F;
+    margin-top: auto;
+    margin-left: 10px;
 }
 /* This closes the header */
 
@@ -61,15 +86,19 @@ ul {
     padding-top: 50px;
 } */
 
-main {
-   width: 100%;
-   height: 1000px;
-}
 
 .wrapper {
     background-color: #fff;
     margin: 75px;
-    height: 100px;
+    /* height: 100px; */
+    width: 75%;
+    font-size: 20px;
+    float: right;
+}
+
+#Work {
+    margin: 75px;
+    height: 350px;
     width: 75%;
     font-size: 20px;
     float: right;
@@ -96,34 +125,56 @@ main {
 
 .work-content {
     background-color: #fff;
-    padding-left: 200px;
+    padding-left: 216px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 3em;
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(../images/SamsungLED_Mockup12_1440x645-091112.webp);
+    /* background-color: black; */
 }
 
-.four-boxes {
-
-}
 
 footer {
-    text-align: right;
-    background-color: #264653;
+    /* text-align: center; */
+    display: flex;
+    background-color: #13243e;
+    /* display: block; */
+    color: #2A9D8F;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
 }
 
-li {
+footer ul {
+    background-color: #13243e;
+    justify-content: flex-end;
+}
+
+
+li{
     display: block;
     color: #2A9D8F;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #13243e;
 }
 
 #Contact-Me {
-    float: left;
-    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
     color: #2A9D8F;
+    text-align: left;
+    text-decoration: none;
+    background-color: #13243e;
+    float: left;
+}
+
+h5 {
+    font-size: 120%;
+    display: inline-block;
+    width: 15%;
+    align-self: center;
 }

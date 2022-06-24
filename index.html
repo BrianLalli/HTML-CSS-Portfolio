@@ -13,7 +13,7 @@
 <body> 
   <header title="nav-bar">
     <h1 class="page-title">Brian Lalli</h1>
-      <nav>
+      <nav class="navbar">
         <ul>
           <li> <a href="">About Me</a></li>
           <li> <a href="">Work</a></li>
@@ -22,18 +22,21 @@
         </ul>
       </nav>
 <!-- Next, I want to include the main image -->
-      <figure id="hero" title="hero image">
-        <img src="">
-        <h2 class="sub-title">Cool Sub-title!</h2>
-      </figure>
+      <div>
   </header>
 
+  <div>
+    <figure id="hero" title="hero image">
+     <img src="">
+    <h2 class="sub-title">A being that turns caffeine into software!</h2>
+    </figure>
+  </div>
 
 <!-- Then, I want to create an article for my About Me -->
 <main class="main">
   <div class="wrapper">
       <article>
-        <h2 class="about-me">About Me</h2>
+        <h3 class="about-me">About Me</h3>
           <p class="bio">
             I enjoy strategizing, logic, communication, problem solving, and attention to detail. 
             I like to make lists, build systems, solve puzzles, have an impact, and be a team leader.
@@ -49,13 +52,14 @@
 <!-- Here is where the main content of my portfolio lives including 5 sub sections -->
 
     <div id="Work">
-      <h2 class="Work">Work</h2>
+      <h3 class="Work">Work</h3>
         <section class="Surf-Report" title="Surf Report">
               <h3>Surf Report</h3>
         </section>
       <div class="work-content">
         <h4>LED Wall</h4>
-          <section>
+          <section class="led">
+            <!-- <img id="led" src="./assets/images/SamsungLED_Mockup12_1440x645-091112.webp"> -->
         <h4>Calculator</h4>
                   <img id="Calculator">
           </section>
@@ -71,7 +75,7 @@
 
 <!-- Finally, I add my footer with links to my contact info -->
   <footer>
-    <h2 id="Contact-Me">Contact Me</h2>
+    <h5 id="Contact-Me">Contact Me</h6>
       <ul class="footer">
         <li class="contact">570.687.6297</li>
         <li class="contact">bdlalli11@gmail.com</li>
