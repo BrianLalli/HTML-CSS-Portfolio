@@ -1,4 +1,4 @@
-# Web Page Accessibility
+# Portfolio
 
 ## Project Description:
 This Challenge was the second homework assignment of the UTA-Bootcamp. Our task was to write the code from scratch to create our future portfolio. The acceptance criteria is focused on functionality of the links and responsivness.
