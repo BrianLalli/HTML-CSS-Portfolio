@@ -24,7 +24,7 @@ I worked really hard to make the page resemble the mock we were given, and ultim
 <br>
 
 ## Wireframe:
-![image](../Module-2-Challenge/assets/images/Image%206-24-22%20at%205.11%20PM.jpg)
+![image](./assets/images/Image%206-24-22%20at%205.11%20PM.jpg)
 
 
 ## Credits:
