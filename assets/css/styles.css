@@ -11,7 +11,7 @@ body {
 
 main {
     width: 100%;
-    height: 1000px;
+    height: 1300px;
 }
 
 
@@ -21,14 +21,23 @@ h1 {
     padding: 15px;
     width: 100%;
     font-weight: bold;
+    font-size: 35px;
 }
 
-/* Inserting a cool little easter egg */
-h2:hover {
+.sub-title {
+    text-align: start;
     color: #2A9D8F;
+    margin-top: auto;
+    margin-left: 10px;
+}
+.sub-title:hover {
+    color: white;
     font-size: 1em;
     font-style: italic;
-    /* display: none; */
+}
+
+h3 {
+    font-size: 30px;
 }
 
 header {
@@ -60,86 +69,121 @@ li a {
   /* Change the link color to #111 (black) on hover */
   /* src=https://www.w3schools.com/css/css_navbar_horizontal.asp */
 li a:hover {
-    background-color: green;
+    display: block;
+    color: white;
 }
 
 #hero {
     width: 100%;
-    min-height: 270px;
+    min-height: 283px;
     margin-bottom: 25px;
     background-image: url(../images/Screen\ Shot\ 2022-06-23\ at\ 5.40.05\ PM.png);
     background-size: cover;
     background-position: center;
 }
 
-.sub-title {
-    text-align: start;
-    color: #2A9D8F;
-    margin-top: auto;
-    margin-left: 10px;
-}
 /* This closes the header */
 
 /* This starts the main */
-/* article {
-    padding-left: 200px;
-    padding-top: 50px;
-} */
 
-
-.wrapper {
-    background-color: #fff;
-    margin: 75px;
-    /* height: 100px; */
-    width: 75%;
-    font-size: 20px;
-    float: right;
+p {
+    line-height: 140%;
 }
 
-#Work {
-    margin: 75px;
-    height: 350px;
-    width: 75%;
+.wrapper {
+    background-color: white;
+    margin-bottom: 75px;
+    width: 100%;
     font-size: 20px;
-    float: right;
 }
 
 .Surf-Report {
-    margin: 75px;
+    margin: 5px;
     height: 350px;
-    width: 75%;
+    width: 100%;
     font-size: 20px;
-    float: right;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(../images/surf-report.jpeg);
-    /* background-color: black; */
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-/* #Work {
-    padding-left: 200px;
-} */
-
 .work-content {
-    background-color: #fff;
-    padding-left: 216px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column-gap: 3em;
     font-size: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* background-color: black; */
 }
 
+.led {
+    margin: 10px;
+    height: 350px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/SamsungLED_Mockup12_1440x645-091112.webp);
+}
+
+.Calc {
+    margin: 10px;
+    height: 350px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/Screen\ Shot\ 2022-06-24\ at\ 4.07.32\ PM.png);
+}
+
+.PP {
+    margin: 10px;
+    height: 350px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/Screen\ Shot\ 2022-06-24\ at\ 4.10.15\ PM.png);
+}
+
+.Run-Buddy {
+    margin: 10px;
+    height: 350px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/Screen\ Shot\ 2022-06-24\ at\ 4.13.27\ PM.png);
+}
+
+#Work {
+    height: 1000px;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* This ends the main */
+
+/* This starts the footer */
 
 footer {
-    /* text-align: center; */
     display: flex;
     background-color: #13243e;
-    /* display: block; */
     color: #2A9D8F;
     font-weight: bold;
     padding: 14px 16px;
@@ -162,6 +206,19 @@ li{
     background-color: #13243e;
 }
 
+li:hover {
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+}
+
+h5 {
+    font-size: 120%;
+    display: inline-block;
+    width: 15%;
+    align-self: center;
+}
+
 #Contact-Me {
     display: flex;
     justify-content: flex-start;
@@ -170,11 +227,4 @@ li{
     text-decoration: none;
     background-color: #13243e;
     float: left;
-}
-
-h5 {
-    font-size: 120%;
-    display: inline-block;
-    width: 15%;
-    align-self: center;
 }
