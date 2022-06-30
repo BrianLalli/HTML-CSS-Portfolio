@@ -18,8 +18,6 @@ I worked really hard to make the page resemble the mock we were given, and ultim
 
 <br>
 
-## Mock Up:
-![image](../Module-2-Challenge/assets/images/02-advanced-css-homework-demo.gif)
 
 <br>
 
