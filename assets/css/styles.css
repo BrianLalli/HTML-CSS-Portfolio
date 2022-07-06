@@ -1,8 +1,8 @@
 /* Universal Selector */
 * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;  
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,17 +11,19 @@ body {
 
 main {
     width: 100%;
-    height: 1300px;
+    height: 600px;
 }
 
 
-h1 {
-    color:#2A9D8F;
+header {
+    color: #2A9D8F;
     background-color: #13243e;
     padding: 15px;
     width: 100%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sub-title {
@@ -30,48 +32,29 @@ h1 {
     margin-top: auto;
     margin-left: 10px;
 }
+
 .sub-title:hover {
     color: white;
     font-size: 1em;
     font-style: italic;
 }
 
-h3 {
+h1 {
     font-size: 30px;
 }
 
-header {
-    display: flex;
-    flex-basis: auto;
-    justify-content: space-between;
-    font-weight: bold;
-}
 
-
-ul {
-    display: flex;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    justify-content: stretch;
-}
-  
-  
-li a {
+nav {
     display: inline;
     color: #2A9D8F;
     text-align: center;
-    text-decoration: none;
 }
-  
-  /* Change the link color to #111 (black) on hover */
-  /* src=https://www.w3schools.com/css/css_navbar_horizontal.asp */
-li a:hover {
-    display: block;
-    color: white;
+
+nav a {
+    color: #2A9D8F;
+    margin: 15px;
 }
+
 
 #hero {
     width: 100%;
@@ -88,100 +71,99 @@ li a:hover {
 
 p {
     line-height: 140%;
-}
-
-.wrapper {
-    background-color: white;
-    margin-bottom: 75px;
-    width: 100%;
     font-size: 20px;
 }
 
-.Surf-Report {
+.work {
+    padding: 16px;
+}
+
+.contact-me {
+    margin: 20px;
+}
+
+h2 {
+    margin: 30px;
+    font-size: 25px;
+}
+
+
+.hero {
+    background-image: url(../images/Screen\ Shot\ 2022-06-23\ at\ 5.38.05\ PM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.avatar img {
+    border-radius: 50% 20% / 10% 40%;
+    margin: 10px 15px;
+    height: 289px;
+    width: 200px;
+}
+
+.show-case-image {
+    display: flex;
+    height: 300px;
+}
+
+.thumbnail-long {
+    opacity: 0.75;
+    border: 3px solid #B2CAD6;
     margin: 5px;
-    height: 350px;
-    width: 100%;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(../images/surf-report.jpeg);
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    justify-content: center;
 }
 
-.work-content {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    font-size: 20px;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.work-cards-main {
+    display: flex;
+    width: 95;
+    margin: 30px;
+    flex-wrap: wrap;
 }
 
-.led {
-    margin: 10px;
-    height: 350px;
-    width: 100%;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../images/SamsungLED_Mockup12_1440x645-091112.webp);
+.thumbnail {
+    display: block;
+    opacity: 0.75;
+    border: 3px solid #B2CAD6;
+    flex-basis: 100%;
+    margin: 5px;
 }
 
-.Calc {
-    margin: 10px;
-    height: 350px;
-    width: 100%;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../images/Screen\ Shot\ 2022-06-24\ at\ 4.07.32\ PM.png);
+.thumbnail:hover {
+    opacity: 1;
 }
 
-.PP {
-    margin: 10px;
-    height: 350px;
-    width: 100%;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../images/Screen\ Shot\ 2022-06-24\ at\ 4.10.15\ PM.png);
+
+.contact-link {
+    margin: 30px;
 }
 
-.Run-Buddy {
-    margin: 10px;
-    height: 350px;
-    width: 100%;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../images/Screen\ Shot\ 2022-06-24\ at\ 4.13.27\ PM.png);
+
+#about-me {
+    display: inline-flex;
+    margin-top: 20px;
 }
 
-#Work {
-    height: 1000px;
-    width: 100%;
-    font-size: 20px;
+#work {
+    display: inline-flex;
+    margin-top: 20px;
 }
+
 
 /* This ends the main */
 
 /* This starts the footer */
 
-footer {
+#contact-me {
     display: flex;
     background-color: #13243e;
     color: #2A9D8F;
@@ -191,22 +173,8 @@ footer {
     width: 100%;
 }
 
-footer ul {
-    background-color: #13243e;
-    justify-content: flex-end;
-}
 
-
-li{
-    display: block;
-    color: #2A9D8F;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #13243e;
-}
-
-li:hover {
+a:hover {
     color: white;
     font-size: 1em;
     font-style: italic;
@@ -219,12 +187,8 @@ h5 {
     align-self: center;
 }
 
-#Contact-Me {
+.contact-links {
+    font-weight: bold;
+    font-size: 20px;
     display: flex;
-    justify-content: flex-start;
-    color: #2A9D8F;
-    text-align: left;
-    text-decoration: none;
-    background-color: #13243e;
-    float: left;
 }
