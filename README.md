@@ -5,7 +5,7 @@ This Challenge was the second homework assignment of the UTA-Bootcamp. Our task 
 
 
 
-#### You can access this project via [GitHub](https://github.com/BrianLalli/Portfolio)
+#### You can access this project via [GitHub](https://brianlalli.github.io/Portfolio/)
 
 <br>
 
