@@ -10,9 +10,6 @@ This Challenge was the second homework assignment of the UTA-Bootcamp. Our task 
 <br>
 
 
-## Mock Up:
-![image](../Module-2-Challenge/assets/images/02-advanced-css-homework-demo.gif)
-
 <br>
 
 ## Wireframe:
@@ -40,15 +37,6 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 ## MIT License:
 
 Copyright (c) 2022 Brian Lalli
-<<<<<<< HEAD
-=======
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
